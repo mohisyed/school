@@ -1,0 +1,10 @@
+CXX = g++
+CXXFLAGS = -Wall
+lab5: Athlete.o lab5.cpp
+        $(CXX) $(CXXFLAGS) Athlete.o lab5.cpp -o lab5
+Athlete.o: Athlete.cpp Athlete.h
+        $(CXX) $(CXXFLAGS) -c Athlete.cpp
+
+run:
+        ./lab5
+

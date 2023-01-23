@@ -1,0 +1,10 @@
+"""
+File:         fav_movies.py
+Author:       Mohiuddin Syed
+Date:         2/1/2021
+Section:      31
+E-mail:       msyed2@umbc.edu
+Description:  
+
+"""
+thrillerorhorror = input("What is your favorite thriller/horror movie")

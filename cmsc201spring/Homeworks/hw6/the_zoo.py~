@@ -1,0 +1,38 @@
+class Animal:
+    pass
+
+
+class Zoo:
+    pass
+
+
+if __name__ == '__main__':
+    national_zoo = Zoo('National Zoo')
+    baltimore_zoo = Zoo('Baltimore Zoo')
+
+    leo = Animal('Leo', 'Lion')
+    gary = Animal('Gary', 'Giraffe')
+    lauren = Animal('Lauren', 'Llama')
+    emma = Animal('Emma', 'Emu')
+
+    leo.display()
+    gary.display()
+    lauren.display()
+    emma.display()
+
+    national_zoo.add_animal(leo)
+    national_zoo.add_animal(lauren)
+
+    baltimore_zoo.add_animal(emma)
+    baltimore_zoo.add_animal(gary)
+
+    national_zoo.display()
+    baltimore_zoo.display()
+
+    national_zoo.remove_animal('Leo')
+    baltimore_zoo.add_animal(leo)
+
+    national_zoo.display()
+    baltimore_zoo.display()
+
+    national_zoo.remove_animal('Emma')

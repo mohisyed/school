@@ -1,0 +1,20 @@
+"""
+Author:       Mohiuddin Syed
+Date:         2/21/2021
+Section:      31
+E-mail:       msyed2@umbc.edu
+Description:  Prints the icecream flavors and the toppings.
+
+"""                                                                             
+                                                                                
+ice_cream_flavors = ["vanilla", "strawberry", "chocolate"]                      
+toppings = ["caramel", "marshmallow", "gummi bears"]                            
+                                                                                
+for x in range(1):                                                              
+    for i in range(3):                                                          
+        print(ice_cream_flavors[0], "is tasty with ",toppings[i])               
+    for i in range(1):                                                          
+        print(ice_cream_flavors[1], "is fine with itself!")                     
+    for i in range(3):                                                          
+        print(ice_cream_flavors[2], "is tasty with ",toppings[i])               
+

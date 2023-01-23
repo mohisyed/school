@@ -1,0 +1,18 @@
+"""
+File:    py_lib.py
+Author:  Mohi Syed
+Date:    2/5/21
+Section: 31
+E-mail:  msyed2@umbc.edu
+Description:
+   Program will ask the user for an adjective, noun, event noun and a verb
+   then print out the adlib.
+"""
+
+adj = input("Enter and Adjective: ")
+noun = input("Enter a noun: ")
+event_noun = input("Enter an Event Noun: ")
+verb = input("Enter a Verb: ")
+
+print("This is going to be a", adj, "semester. We are going to learn a lot about", noun + ", and probably cause few",
+      event_noun+ ". When you're coding remember to", verb + ".")
